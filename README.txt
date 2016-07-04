@@ -2,6 +2,9 @@ Eurclear Text Mining Hackathon.
 
 Get the Stanford Core NLP English language model
 ================================================
+Create a folder to store the language model:
+mkdir ./extLib
+
 Download
 http://nlp.stanford.edu/software/stanford-english-corenlp-2016-01-10-models.jar
 and store it in
