@@ -23,6 +23,8 @@ libraryDependencies += "com.github.fommil.netlib" % "all" % "1.1.2"
 libraryDependencies += "org.scalanlp" %% "breeze" % "0.12"
 libraryDependencies += "org.scalanlp" %% "breeze-natives" % "0.12"
 
+libraryDependencies += "edu.stanford.nlp" % "stanford-corenlp" % "3.6.0"
+
 scalacOptions ++= Seq("-feature")
 
 // A special option to exclude Scala itself form our assembly JAR, since Spark

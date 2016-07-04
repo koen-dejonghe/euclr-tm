@@ -1,4 +1,4 @@
-package euclr.tm.spark.ml
+package euclr.tm.spark.ml.util
 
 object StopWords {
     val stopWords =
