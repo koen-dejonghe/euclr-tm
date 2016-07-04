@@ -150,7 +150,7 @@ mkdir dist
 
 On your workstation:
 sbt assembly
-scp euclr-tm-assembly-1.0.jar 52.99.99.99/dist/
+scp euclr-tm-assembly-1.0.jar 52.99.99.99:dist/
 
 On your EC2 master node:
 spark-ec2/copy-dir.sh dist
