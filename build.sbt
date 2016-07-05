@@ -1,4 +1,4 @@
-name := """euclr-tm-rabbit"""
+name := """euclr-tm"""
 
 version := "1.0"
 
