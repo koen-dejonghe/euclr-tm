@@ -20,7 +20,7 @@ fi
 
 time spark-submit \
 --driver-memory 12g \
---driver-class-path target/scala-2.10/euclr-tm-rabbit-assembly-1.0.jar:extLib/stanford-english-corenlp-2016-01-10-models.jar \
+--driver-class-path target/scala-2.10/euclr-tm-assembly-1.0.jar:extLib/stanford-english-corenlp-2016-01-10-models.jar \
 --class $class \
 --master "local[*]" \
 target/scala-2.10/*-assembly-1.0.jar \
